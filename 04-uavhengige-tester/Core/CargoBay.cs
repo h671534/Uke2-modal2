@@ -7,7 +7,7 @@ public class CargoBay
 
     public bool TryAdd(string name)
     {
-        if (_items.Count >= 2)
+        if (_items.Count >= 2)//lett endre max 2 >
         {
             return false;
         }
